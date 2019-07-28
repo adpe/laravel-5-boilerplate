@@ -112,6 +112,20 @@ return [
                 'view' => 'View User',
             ],
         ],
+
+        'plugins' => [
+            'management'    => 'Manage plugins',
+            'edit'          => 'Edit plugin',
+            'actions'       => 'Plugin Actions',
+            'table' => [
+                'name'              => 'Name',
+                'frankenstyle'      => 'Frankenstyle',
+                'version'           => 'Version',
+                'release'           => 'Release',
+                'platform'          => 'Platform',
+                'total'             => 'plugin total|plugins total',
+            ],
+        ],
     ],
 
     'frontend' => [

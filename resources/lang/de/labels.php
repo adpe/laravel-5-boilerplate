@@ -106,6 +106,20 @@ return [
                 'view' => 'Benutzer anzeigen',
             ],
         ],
+
+        'plugins' => [
+            'management'    => 'Plugins verwalten',
+            'edit'          => 'Plugin bearbeiten',
+            'actions'       => 'Plugin Aktionen',
+            'table' => [
+                'name'              => 'Name',
+                'frankenstyle'      => 'Frankenstyle',
+                'version'           => 'Version',
+                'release'           => 'Release',
+                'platform'          => 'Plattform',
+                'total'             => 'Plugin|Plugins',
+            ],
+        ],
     ],
 
     'frontend' => [
