@@ -64,6 +64,11 @@ return [
         ],
 
         'welcome' => 'Welcome to the Dashboard',
+
+        'plugins' => [
+            'title'     => 'Moodle Plugins Overview',
+            'intro'     => 'Here you can find a table with all plugins.'
+        ]
     ],
 
     'emails' => [
@@ -130,5 +135,11 @@ return [
         ],
 
         'welcome_to' => 'Welcome to :place',
+
+        'plugins' => [
+            'overview' => 'Moodle Plugins Overview',
+            'intro' => 'Please login to access the overview.',
+            'button' => 'See all',
+        ],
     ],
 ];

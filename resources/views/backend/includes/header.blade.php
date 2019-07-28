@@ -19,6 +19,10 @@
             <a class="nav-link" href="{{ route('admin.dashboard') }}">@lang('navs.frontend.dashboard')</a>
         </li>
 
+        <li class="nav-item px-3">
+            <a class="nav-link" href="{{ route('admin.plugins') }}">@lang('navs.frontend.plugins')</a>
+        </li>
+
         @if(config('locale.status') && count(config('locale.languages')) > 1)
             <li class="nav-item px-3 dropdown">
                 <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">

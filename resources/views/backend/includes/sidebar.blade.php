@@ -11,6 +11,9 @@
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     @lang('menus.backend.sidebar.dashboard')
                 </a>
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/plugins')) }}" href="{{ route('admin.plugins') }}">
+                    <i class="nav-icon icon-puzzle"></i> @lang('menus.backend.sidebar.plugins')
+                </a>
             </li>
 
             <li class="nav-title">
