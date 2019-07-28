@@ -38,7 +38,7 @@ return [
 
     'frontend' => [
         'contact' => [
-            'sent' => 'Your information was successfully sent. We will respond back to the e-mail provided as soon as we can.',
+            'sent' => 'Ihre Informationen wurden erfolgreich übermittelt. Wir werden so schnell wie möglich auf die angegebene E-Mail antworten.',
         ],
     ],
 ];

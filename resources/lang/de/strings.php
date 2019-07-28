@@ -89,8 +89,8 @@ return [
         ],
 
         'contact' => [
-            'email_body_title' => 'You have a new contact form request: Below are the details:',
-            'subject' => 'A new :app_name contact form submission!',
+            'email_body_title' => 'Du hast eine neue Anfrage für ein Kontaktformular: Nachfolgend finden Sie die Details:',
+            'subject' => 'Eine neue :app_name Kontaktformular Nachricht!',
         ],
     ],
 

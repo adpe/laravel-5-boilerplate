@@ -119,8 +119,8 @@ return [
         ],
 
         'contact' => [
-            'box_title' => 'Contact Us',
-            'button' => 'Send Information',
+            'box_title' => 'Kontaktieren Sie uns',
+            'button' => 'Mitteilung senden',
         ],
 
         'passwords' => [
