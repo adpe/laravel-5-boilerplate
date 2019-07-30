@@ -23,7 +23,7 @@
                             <th>@lang('labels.backend.plugins.table.version')</th>
                             <th>@lang('labels.backend.plugins.table.release')</th>
                             <th>@lang('labels.backend.plugins.table.platform')</th>
-                            <th>@lang('labels.general.actions')</th>
+{{--                            <th>@lang('labels.general.actions')</th>--}}
                         </tr>
                         </thead>
                         <tbody>
@@ -34,11 +34,11 @@
                                 <td>{{ $plugin['versiondb'] }}</td>
                                 <td>{{ $plugin['release'] }}</td>
                                 <td>tba</td>
-                                <td>
-                                    <div class="btn-group btn-group-sm" role="group" aria-label="@lang('labels.backend.plugins.actions')">
-                                        <a href="#" class="btn btn-primary"><i class="fas fa-edit" data-toggle="tooltip" data-placement="top" title="@lang('buttons.general.crud.edit')"></i></a>
-                                    </div>
-                                </td>
+{{--                                <td>--}}
+{{--                                    <div class="btn-group btn-group-sm" role="group" aria-label="@lang('labels.backend.plugins.actions')">--}}
+{{--                                        <a href="#" class="btn btn-primary"><i class="fas fa-edit" data-toggle="tooltip" data-placement="top" title="@lang('buttons.general.crud.edit')"></i></a>--}}
+{{--                                    </div>--}}
+{{--                                </td>--}}
                             </tr>
                         @endforeach
                         </tbody>
@@ -50,12 +50,6 @@
             <div class="col-7">
                 <div class="float-left">
                     {!! count($plugins) !!} {{ trans_choice('labels.backend.plugins.table.total', count($plugins)) }}
-                </div>
-            </div>
-
-            <div class="col-5">
-                <div class="float-right">
-{{--                    {!! $roles->render() !!}--}}
                 </div>
             </div>
         </div>
